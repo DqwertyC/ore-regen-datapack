@@ -1,0 +1,2 @@
+execute in ore_regen:ore_regen store result score @s ore_count run clone ~ ~ ~ ~ ~ ~15 ~ ~ ~ filtered #ore_regen:can_regen move
+execute if entity @s[scores={ore_count=1..}] run function ore_regen:regen_row_b
