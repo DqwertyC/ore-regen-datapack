@@ -13,4 +13,4 @@ scoreboard players set CHUNK mod_x 16
 scoreboard players set CHUNK mod_y 16
 scoreboard players set CHUNK mod_z 16
 
-function ore_regen:regen_around_players
+schedule function ore_regen:regen_around_players 10s replace
