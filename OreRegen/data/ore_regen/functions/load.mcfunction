@@ -10,7 +10,9 @@ scoreboard objectives add ore_count dummy
 scoreboard objectives add player_count dummy
 
 scoreboard players set CHUNK mod_x 16
-scoreboard players set CHUNK mod_y 16
 scoreboard players set CHUNK mod_z 16
+
+scoreboard players set MIN pos_y -64
+scoreboard players set MAX pos_y 64
 
 schedule function ore_regen:regen_around_players 10s replace
